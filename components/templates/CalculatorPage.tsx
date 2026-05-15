@@ -1,0 +1,32 @@
+import type { PageConfig } from "@/types/content";
+import { ApPsychCalculator } from "@/components/calculator/ApPsychCalculator";
+import { Disclaimer } from "@/components/content/Disclaimer";
+import { FAQSection } from "@/components/seo/FAQSection";
+import { JsonLd } from "@/components/seo/JsonLd";
+import { RelatedLinks } from "@/components/seo/RelatedLinks";
+import { buildSchemas } from "@/lib/seo/schema";
+
+export function CalculatorPage({ page }: { page: PageConfig }) {
+  return (
+    <>
+      <JsonLd data={buildSchemas(page)} />
+      <main>
+        <section className="mx-auto max-w-6xl px-4 py-10 sm:py-14">
+          <p className="text-sm font-medium text-blue-700">Updated {page.freshness.lastUpdated}</p>
+          <h1 className="mt-3 max-w-3xl text-4xl font-bold tracking-tight sm:text-5xl">{page.seo.h1}</h1>
+          <p className="mt-4 max-w-3xl text-lg text-slate-600">{page.content.directAnswer}</p>
+          <div className="mt-8"><ApPsychCalculator /></div>
+          <div className="mt-6"><Disclaimer /></div>
+        </section>
+        {page.content.sections.map((section) => (
+          <section key={section.id} className="mx-auto max-w-3xl px-4 py-7">
+            <h2 className="text-2xl font-semibold tracking-tight">{section.heading}</h2>
+            <p className="mt-3 leading-7 text-slate-700">{section.body}</p>
+          </section>
+        ))}
+        <FAQSection faqs={page.content.faqs} />
+        <RelatedLinks page={page} />
+      </main>
+    </>
+  );
+}

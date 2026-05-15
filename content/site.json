@@ -1,0 +1,13 @@
+{
+  "siteName": "AP Psych Score Calculator",
+  "domain": "appsychscorecalculator.com",
+  "baseUrl": "https://appsychscorecalculator.com",
+  "defaultYear": 2026,
+  "defaultLocale": "en-US",
+  "author": "AP Psych Score Calculator",
+  "disclaimer": "This calculator provides an estimate only and is not affiliated with or endorsed by College Board.",
+  "analytics": {
+    "ga4MeasurementId": "",
+    "plausibleDomain": "appsychscorecalculator.com"
+  }
+}

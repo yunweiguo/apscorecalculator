@@ -1,0 +1,74 @@
+{
+  "subjectName": "AP Psychology",
+  "subjectShortName": "AP Psych",
+  "subjectSlug": "ap-psychology",
+  "examYear": 2026,
+  "scoring": {
+    "mcqMax": 75,
+    "frqMax": 14,
+    "frqParts": [
+      {
+        "name": "FRQ 1",
+        "maxScore": 7
+      },
+      {
+        "name": "FRQ 2",
+        "maxScore": 7
+      }
+    ],
+    "weights": {
+      "mcq": 0.667,
+      "frq": 0.333
+    },
+    "estimatedScoreBands": [
+      {
+        "score": 5,
+        "minPercent": 75,
+        "maxPercent": 100,
+        "label": "Very likely 5 range"
+      },
+      {
+        "score": 4,
+        "minPercent": 60,
+        "maxPercent": 74.99,
+        "label": "Likely 4 range"
+      },
+      {
+        "score": 3,
+        "minPercent": 45,
+        "maxPercent": 59.99,
+        "label": "Likely 3 range"
+      },
+      {
+        "score": 2,
+        "minPercent": 30,
+        "maxPercent": 44.99,
+        "label": "Likely 2 range"
+      },
+      {
+        "score": 1,
+        "minPercent": 0,
+        "maxPercent": 29.99,
+        "label": "Likely 1 range"
+      }
+    ]
+  },
+  "keywords": {
+    "primary": "ap psych score calculator",
+    "secondary": [
+      "ap psychology score calculator",
+      "ap psych score calculator 2026",
+      "ap psych calculator"
+    ],
+    "longTail": [
+      "how many questions can you miss on AP Psych",
+      "what score do you need to get a 5 on AP Psych",
+      "did I pass AP Psych",
+      "AP Psych curve"
+    ]
+  },
+  "freshness": {
+    "lastUpdated": "2026-05-16",
+    "latestDistributionYear": 2025
+  }
+}

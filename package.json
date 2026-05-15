@@ -1,0 +1,32 @@
+{
+  "name": "ap-psych-score-calculator",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "validate:seo": "tsx scripts/validate-seo.ts",
+    "check:links": "tsx scripts/check-internal-links.ts"
+  },
+  "dependencies": {
+    "@vercel/analytics": "latest",
+    "clsx": "latest",
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "devDependencies": {
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "autoprefixer": "latest",
+    "eslint": "latest",
+    "eslint-config-next": "latest",
+    "postcss": "latest",
+    "tailwindcss": "latest",
+    "tsx": "latest",
+    "typescript": "latest"
+  }
+}

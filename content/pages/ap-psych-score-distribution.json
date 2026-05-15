@@ -1,0 +1,73 @@
+{
+  "slug": "ap-psych-score-distribution",
+  "url": "/ap-psych-score-distribution",
+  "pageType": "distribution",
+  "subjectSlug": "ap-psychology",
+  "seo": {
+    "primaryKeyword": "ap psych score distribution",
+    "secondaryKeywords": [],
+    "title": "AP Psych Score Distribution 2025 | Pass Rate and 5 Rate Explained",
+    "description": "Explore the AP Psych score distribution, pass rate, and 5 rate, and learn what the results may mean for your estimated AP Psychology score.",
+    "h1": "AP Psych Score Distribution",
+    "canonicalPath": "/ap-psych-score-distribution",
+    "indexing": "index"
+  },
+  "content": {
+    "directAnswer": "AP Psych score distribution pages help students understand how many test takers receive each score, but distribution data should be interpreted separately from your personal score estimate.",
+    "calculatorEmbed": "cta",
+    "sections": [
+      {
+        "id": "distribution",
+        "heading": "How to Read AP Psych Score Distribution",
+        "body": "Score distribution shows the share of students receiving each AP score from 1 to 5. It does not directly reveal the raw-score cutoff for your own exam."
+      },
+      {
+        "id": "pass-rate",
+        "heading": "Pass Rate and 5 Rate",
+        "body": "The pass rate usually refers to the share of students earning 3 or higher, while the 5 rate refers to the share earning the top score."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Is this calculator official?",
+        "answer": "No. This calculator is an independent estimate and is not affiliated with or endorsed by College Board."
+      },
+      {
+        "question": "Can actual AP score cutoffs vary?",
+        "answer": "Yes. Actual score thresholds can vary by year and exam form, so this tool should be used for planning only."
+      },
+      {
+        "question": "Does FRQ performance matter for AP Psych?",
+        "answer": "Yes. FRQ performance contributes to the composite estimate, so a stronger FRQ score can offset some missed multiple-choice questions."
+      },
+      {
+        "question": "Should I use this before or after the exam?",
+        "answer": "You can use it before the exam for target planning or after the exam to estimate possible score outcomes."
+      }
+    ]
+  },
+  "internalLinks": {
+    "required": [
+      {
+        "href": "/",
+        "anchor": "AP Psych Score Calculator",
+        "placement": "hero"
+      }
+    ],
+    "related": [
+      "/",
+      "/ap-psych-curve",
+      "/what-score-do-you-need-to-get-a-5"
+    ]
+  },
+  "schema": [
+    "Article",
+    "FAQPage",
+    "BreadcrumbList"
+  ],
+  "freshness": {
+    "lastUpdated": "2026-05-16",
+    "changeFrequency": "monthly",
+    "priority": 0.8
+  }
+}

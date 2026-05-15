@@ -1,0 +1,74 @@
+{
+  "slug": "how-many-questions-can-you-miss",
+  "url": "/how-many-questions-can-you-miss",
+  "pageType": "anxiety",
+  "subjectSlug": "ap-psychology",
+  "seo": {
+    "primaryKeyword": "how many questions can you miss on AP Psych",
+    "secondaryKeywords": [],
+    "title": "How Many Questions Can You Miss on AP Psych and Still Get a 5?",
+    "description": "Find out how many AP Psych multiple-choice questions you may be able to miss and still earn a 3, 4, or 5 using estimated score ranges.",
+    "h1": "How Many Questions Can You Miss on AP Psych?",
+    "canonicalPath": "/how-many-questions-can-you-miss",
+    "indexing": "index"
+  },
+  "content": {
+    "directAnswer": "How many questions you can miss depends on your FRQ score and target AP score. Use the calculator to test missed-question scenarios.",
+    "calculatorEmbed": "cta",
+    "sections": [
+      {
+        "id": "missed-questions",
+        "heading": "Missed Questions Are Only Part of the Score",
+        "body": "A missed-question estimate is useful, but your final estimate also depends on FRQ performance."
+      },
+      {
+        "id": "scenarios",
+        "heading": "Common Missed-Question Scenarios",
+        "body": "Try scenarios such as missing 10, 15, 20, or 25 MCQ questions and compare the results with different FRQ scores."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Is this calculator official?",
+        "answer": "No. This calculator is an independent estimate and is not affiliated with or endorsed by College Board."
+      },
+      {
+        "question": "Can actual AP score cutoffs vary?",
+        "answer": "Yes. Actual score thresholds can vary by year and exam form, so this tool should be used for planning only."
+      },
+      {
+        "question": "Does FRQ performance matter for AP Psych?",
+        "answer": "Yes. FRQ performance contributes to the composite estimate, so a stronger FRQ score can offset some missed multiple-choice questions."
+      },
+      {
+        "question": "Should I use this before or after the exam?",
+        "answer": "You can use it before the exam for target planning or after the exam to estimate possible score outcomes."
+      }
+    ]
+  },
+  "internalLinks": {
+    "required": [
+      {
+        "href": "/",
+        "anchor": "AP Psych Score Calculator",
+        "placement": "hero"
+      }
+    ],
+    "related": [
+      "/",
+      "/what-score-do-you-need-to-get-a-5",
+      "/ap-psych-curve",
+      "/did-i-pass-ap-psych"
+    ]
+  },
+  "schema": [
+    "Article",
+    "FAQPage",
+    "BreadcrumbList"
+  ],
+  "freshness": {
+    "lastUpdated": "2026-05-16",
+    "changeFrequency": "monthly",
+    "priority": 0.8
+  }
+}
