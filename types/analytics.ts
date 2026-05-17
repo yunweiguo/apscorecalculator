@@ -6,7 +6,7 @@ export type AnalyticsEventName =
   | "faq_expanded"
   | "outbound_link_clicked";
 
-export interface AnalyticsEventPayload {
+export type AnalyticsEventPayload = Record<string, unknown> & {
   pagePath: string;
   pageType?: string;
   primaryKeyword?: string;
@@ -14,7 +14,7 @@ export interface AnalyticsEventPayload {
   targetScore?: number;
   linkHref?: string;
   faqQuestion?: string;
-}
+};
 
 declare global {
   interface Window {
