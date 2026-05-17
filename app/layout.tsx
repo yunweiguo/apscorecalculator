@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { Analytics } from "@vercel/analytics/next";
 import "@/app/globals.css";
+import { GoogleAnalytics } from "@/components/analytics/GoogleAnalytics";
 import site from "@/content/site.json";
 
 export const metadata: Metadata = {
@@ -31,6 +32,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
           </div>
         </footer>
         <Analytics />
+        <GoogleAnalytics measurementId={site.analytics.ga4MeasurementId} />
       </body>
     </html>
   );
