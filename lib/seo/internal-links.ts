@@ -14,8 +14,13 @@ export function getRelatedLinks(page: PageConfig): InternalLinkRule[] {
 
 export function getFooterRelatedLinks(page: PageConfig): InternalLinkRule[] {
   const related = getRelatedLinks(page);
-  if (page.url !== "/") {
-    return [{ href: "/", anchor: "AP Psych Score Calculator", placement: "hero" }, ...related].slice(0, 6);
-  }
-  return related.slice(0, 8);
+  const links = page.url !== "/"
+    ? [{ href: "/", anchor: "AP Psych Score Calculator", placement: "hero" as const }, ...related]
+    : related;
+
+  const uniqueLinks = links.filter((link, index, allLinks) => {
+    return allLinks.findIndex((candidate) => candidate.href === link.href) === index;
+  });
+
+  return uniqueLinks.slice(0, page.url !== "/" ? 6 : 8);
 }
