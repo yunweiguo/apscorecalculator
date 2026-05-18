@@ -13,18 +13,28 @@
     "indexing": "index"
   },
   "content": {
-    "directAnswer": "AP Psych score distribution pages help students understand how many test takers receive each score, but distribution data should be interpreted separately from your personal score estimate.",
+    "directAnswer": "AP Psych score distribution data shows how test takers are spread across scores 1 through 5. It helps explain pass rate and 5 rate, but it does not tell you your personal score without your MCQ and FRQ performance.",
     "calculatorEmbed": "cta",
     "sections": [
       {
         "id": "distribution",
         "heading": "How to Read AP Psych Score Distribution",
-        "body": "Score distribution shows the share of students receiving each AP score from 1 to 5. It does not directly reveal the raw-score cutoff for your own exam."
+        "body": "Score distribution shows the share of students receiving each AP score from 1 to 5. It is useful for understanding how common each score is, but it does not directly reveal the raw-score cutoff for your own exam."
       },
       {
         "id": "pass-rate",
         "heading": "Pass Rate and 5 Rate",
-        "body": "The pass rate usually refers to the share of students earning 3 or higher, while the 5 rate refers to the share earning the top score."
+        "body": "The pass rate usually refers to the share of students earning 3 or higher, while the 5 rate refers to the share earning the top score. A lower 5 rate can make the exam feel more competitive, but your own estimate still depends on your raw performance."
+      },
+      {
+        "id": "distribution-vs-calculator",
+        "heading": "Distribution vs. Your Personal Estimate",
+        "body": "Distribution data answers how students performed as a group. The AP Psych Score Calculator answers a different question: what your own MCQ and FRQ combination might convert to on a 1 to 5 scale."
+      },
+      {
+        "id": "how-to-use-distribution",
+        "heading": "How to Use Distribution Data",
+        "body": "Use distribution data for context, then use score scenarios for planning. If you are near a cutoff estimate, small changes in FRQ points or MCQ correct count can matter more than the overall score distribution."
       }
     ],
     "faqs": [
@@ -34,15 +44,23 @@
       },
       {
         "question": "Can actual AP score cutoffs vary?",
-        "answer": "Yes. Actual score thresholds can vary by year and exam form, so this tool should be used for planning only."
+        "answer": "Yes. Actual score thresholds can vary by year and exam form, and distribution data does not publish your personal raw-score cutoff."
       },
       {
-        "question": "Does FRQ performance matter for AP Psych?",
-        "answer": "Yes. FRQ performance contributes to the composite estimate, so a stronger FRQ score can offset some missed multiple-choice questions."
+        "question": "What does AP Psych pass rate mean?",
+        "answer": "Pass rate usually means the percentage of students earning a 3 or higher. Colleges can still set their own credit policies."
       },
       {
-        "question": "Should I use this before or after the exam?",
-        "answer": "You can use it before the exam for target planning or after the exam to estimate possible score outcomes."
+        "question": "Does score distribution tell me whether I passed?",
+        "answer": "No. Distribution data shows group outcomes. To estimate whether you passed, enter your MCQ and FRQ estimates into the calculator."
+      },
+      {
+        "question": "Is a low 5 rate the same as a harder curve?",
+        "answer": "Not exactly. A low 5 rate can reflect exam difficulty, student performance, scoring standards, or a mix of factors."
+      },
+      {
+        "question": "Should I compare distribution data with score scenarios?",
+        "answer": "Yes. Distribution data gives context, while score scenarios help estimate your own likely score band."
       }
     ]
   },
@@ -57,7 +75,9 @@
     "related": [
       "/",
       "/ap-psych-curve",
-      "/what-score-do-you-need-to-get-a-5"
+      "/what-score-do-you-need-to-get-a-5",
+      "/did-i-pass-ap-psych",
+      "/how-many-questions-can-you-miss"
     ]
   },
   "schema": [
@@ -66,7 +86,7 @@
     "BreadcrumbList"
   ],
   "freshness": {
-    "lastUpdated": "2026-05-16",
+    "lastUpdated": "2026-05-19",
     "changeFrequency": "monthly",
     "priority": 0.8
   }

@@ -13,18 +13,28 @@
     "indexing": "index"
   },
   "content": {
-    "directAnswer": "The AP Psych curve is best understood as an estimated raw-to-scaled score conversion. Actual cutoffs can vary, so use the calculator for planning rather than official scoring.",
+    "directAnswer": "The AP Psych curve is best understood as an estimated raw-to-scaled score conversion. A higher MCQ total and stronger FRQ score both raise your composite estimate, but actual AP score cutoffs can vary by year and exam form.",
     "calculatorEmbed": "cta",
     "sections": [
       {
         "id": "what-is-curve",
         "heading": "What Is the AP Psych Curve?",
-        "body": "Students often call the score conversion a curve, but AP scores are converted from exam performance into a 1 to 5 score using processes that can vary by year."
+        "body": "Students often call the score conversion a curve, but the practical question is how raw exam performance turns into a 1 to 5 score. For planning, treat the curve as an estimated composite range rather than a fixed number of questions you must answer correctly."
       },
       {
         "id": "raw-score",
         "heading": "Raw Score to AP Score Conversion",
-        "body": "Your MCQ and FRQ results combine into a composite estimate. This site uses estimated score bands to help you understand possible outcomes."
+        "body": "Your MCQ correct count and FRQ points combine into a composite estimate. For example, a student with a strong MCQ score but weaker FRQs may land near a cutoff, while a student with fewer MCQ points can sometimes recover with stronger FRQ performance."
+      },
+      {
+        "id": "score-band-scenarios",
+        "heading": "Estimated Score Band Scenarios",
+        "body": "As a rough planning model, a composite estimate around the mid-70s or higher is usually a safer 5 target, around the 60s can point toward a 4, and around the mid-40s or higher can point toward a 3. Use the AP Psych Score Calculator to test your own MCQ and FRQ mix."
+      },
+      {
+        "id": "how-to-use-curve",
+        "heading": "How to Use the Curve Without Overtrusting It",
+        "body": "Use the curve page to understand the relationship between raw performance and score bands, then use the calculator to test scenarios. Do not treat any estimated cutoff as guaranteed, because official scoring decisions and exam forms can change."
       }
     ],
     "faqs": [
@@ -34,15 +44,23 @@
       },
       {
         "question": "Can actual AP score cutoffs vary?",
-        "answer": "Yes. Actual score thresholds can vary by year and exam form, so this tool should be used for planning only."
+        "answer": "Yes. Actual score thresholds can vary by year and exam form, so any curve estimate should be used for planning only."
       },
       {
-        "question": "Does FRQ performance matter for AP Psych?",
-        "answer": "Yes. FRQ performance contributes to the composite estimate, so a stronger FRQ score can offset some missed multiple-choice questions."
+        "question": "Is the AP Psych curve the same every year?",
+        "answer": "No. Students often look for one fixed curve, but estimated cutoffs can shift. That is why scenario testing is safer than relying on a single raw-score number."
       },
       {
-        "question": "Should I use this before or after the exam?",
-        "answer": "You can use it before the exam for target planning or after the exam to estimate possible score outcomes."
+        "question": "Does FRQ performance affect the AP Psych curve?",
+        "answer": "Yes. FRQ performance affects your composite estimate, so it can change where you land within an estimated score band."
+      },
+      {
+        "question": "What is a safe composite target for a 5?",
+        "answer": "A composite estimate around the mid-70s or higher is a safer planning target for a 5, but it is still an estimate rather than an official cutoff."
+      },
+      {
+        "question": "Should I use the curve before or after the exam?",
+        "answer": "Use it before the exam to set targets and after the exam to estimate possible outcomes. In both cases, compare multiple MCQ and FRQ scenarios."
       }
     ]
   },
@@ -58,7 +76,8 @@
       "/",
       "/ap-psych-score-distribution",
       "/what-score-do-you-need-to-get-a-5",
-      "/how-many-questions-can-you-miss"
+      "/how-many-questions-can-you-miss",
+      "/did-i-pass-ap-psych"
     ]
   },
   "schema": [
@@ -67,7 +86,7 @@
     "BreadcrumbList"
   ],
   "freshness": {
-    "lastUpdated": "2026-05-16",
+    "lastUpdated": "2026-05-19",
     "changeFrequency": "monthly",
     "priority": 0.8
   }

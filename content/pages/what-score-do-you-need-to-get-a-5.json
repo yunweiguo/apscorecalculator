@@ -13,18 +13,28 @@
     "indexing": "index"
   },
   "content": {
-    "directAnswer": "A rough target for a 5 is about 75% or higher on the estimated composite score, but the safest answer depends on your MCQ and FRQ combination.",
+    "directAnswer": "A rough target for a 5 on AP Psych is about 75% or higher on the estimated composite score. The safest target depends on your MCQ correct count and your two FRQ scores, so test several combinations instead of relying on one raw number.",
     "calculatorEmbed": "cta",
     "sections": [
       {
         "id": "target-score",
         "heading": "Estimated Target for a 5",
-        "body": "Aim for a strong combined performance across both multiple-choice and free-response sections. Use the calculator to test different combinations."
+        "body": "Aim for a strong combined performance across both multiple-choice and free-response sections. A high MCQ score gives you more room, but a weak FRQ section can still pull the composite estimate down near the 4 or 5 boundary."
       },
       {
         "id": "frq-impact",
         "heading": "Can a Strong FRQ Help?",
-        "body": "Yes. A stronger FRQ score can help offset some missed MCQ questions, but both sections matter."
+        "body": "Yes. A stronger FRQ score can help offset some missed MCQ questions, especially if your MCQ score is already near a 5-level range. If both FRQs are low, you usually need a stronger MCQ performance to stay near a 5 estimate."
+      },
+      {
+        "id": "example-scenarios",
+        "heading": "Example 5-Score Scenarios",
+        "body": "If you are around the high 50s or low 60s out of 75 on MCQ and earn strong FRQ points, you may be in a competitive range for a 5 estimate. If your FRQs are average, you may need more MCQ cushion. Use the calculator to compare conservative, average, and optimistic scenarios."
+      },
+      {
+        "id": "target-planning",
+        "heading": "How to Plan Your Target Score",
+        "body": "Start by choosing a target AP score of 5 in the reverse score planner. Then test what happens if you miss 10, 15, or 20 multiple-choice questions and pair those scenarios with different FRQ totals."
       }
     ],
     "faqs": [
@@ -34,15 +44,23 @@
       },
       {
         "question": "Can actual AP score cutoffs vary?",
-        "answer": "Yes. Actual score thresholds can vary by year and exam form, so this tool should be used for planning only."
+        "answer": "Yes. Actual score thresholds can vary by year and exam form, so a 5 target should be treated as an estimate rather than a guarantee."
       },
       {
-        "question": "Does FRQ performance matter for AP Psych?",
-        "answer": "Yes. FRQ performance contributes to the composite estimate, so a stronger FRQ score can offset some missed multiple-choice questions."
+        "question": "Can I get a 5 with an average FRQ score?",
+        "answer": "Possibly, but you usually need stronger MCQ performance to compensate. Test both average and conservative FRQ scenarios before assuming you are safely in the 5 range."
       },
       {
-        "question": "Should I use this before or after the exam?",
-        "answer": "You can use it before the exam for target planning or after the exam to estimate possible score outcomes."
+        "question": "How many MCQ questions should I aim to get right for a 5?",
+        "answer": "A strong target is often in the high 50s or better out of 75 when paired with solid FRQ performance, but the exact estimate depends on your FRQ points."
+      },
+      {
+        "question": "Is a 75% composite always a 5?",
+        "answer": "No. It is a planning estimate, not an official cutoff. Actual AP score conversions can vary."
+      },
+      {
+        "question": "Should I plan for a higher target than the minimum estimate?",
+        "answer": "Yes. If you want a safer 5 estimate, build in cushion for uncertain FRQ scoring and possible cutoff changes."
       }
     ]
   },
@@ -58,7 +76,8 @@
       "/",
       "/how-many-questions-can-you-miss",
       "/ap-psych-curve",
-      "/did-i-pass-ap-psych"
+      "/did-i-pass-ap-psych",
+      "/ap-psych-score-distribution"
     ]
   },
   "schema": [
@@ -67,7 +86,7 @@
     "BreadcrumbList"
   ],
   "freshness": {
-    "lastUpdated": "2026-05-16",
+    "lastUpdated": "2026-05-19",
     "changeFrequency": "monthly",
     "priority": 0.8
   }

@@ -13,18 +13,28 @@
     "indexing": "index"
   },
   "content": {
-    "directAnswer": "How many questions you can miss depends on your FRQ score and target AP score. Use the calculator to test missed-question scenarios.",
+    "directAnswer": "How many questions you can miss on AP Psych depends on your target score and FRQ performance. Missing 10 questions is very different from missing 25 questions, and a strong FRQ score can change the final estimate.",
     "calculatorEmbed": "cta",
     "sections": [
       {
         "id": "missed-questions",
         "heading": "Missed Questions Are Only Part of the Score",
-        "body": "A missed-question estimate is useful, but your final estimate also depends on FRQ performance."
+        "body": "A missed-question estimate is useful, but it only covers the multiple-choice section. Your final AP Psych estimate also depends on the points you earn across the two FRQs."
       },
       {
         "id": "scenarios",
         "heading": "Common Missed-Question Scenarios",
-        "body": "Try scenarios such as missing 10, 15, 20, or 25 MCQ questions and compare the results with different FRQ scores."
+        "body": "Try scenarios such as missing 10, 15, 20, or 25 MCQ questions and compare the results with different FRQ scores. For example, 60 correct out of 75 is a much stronger starting point than 50 correct, but FRQ points still matter."
+      },
+      {
+        "id": "target-score-differences",
+        "heading": "Missing Questions for a 3, 4, or 5",
+        "body": "A score goal of 3 gives you more room for missed MCQ questions than a goal of 5. If you are aiming for a 5, test conservative FRQ assumptions. If you are aiming for a 3 or 4, focus on whether your total composite estimate clears the relevant band."
+      },
+      {
+        "id": "post-exam-estimate",
+        "heading": "How to Estimate After the Exam",
+        "body": "After the exam, start with your best memory of how many MCQ questions you got right. Then enter low, medium, and high FRQ estimates to see the range of possible AP scores."
       }
     ],
     "faqs": [
@@ -34,15 +44,23 @@
       },
       {
         "question": "Can actual AP score cutoffs vary?",
-        "answer": "Yes. Actual score thresholds can vary by year and exam form, so this tool should be used for planning only."
+        "answer": "Yes. Actual score thresholds can vary by year and exam form, so missed-question estimates are only planning ranges."
       },
       {
-        "question": "Does FRQ performance matter for AP Psych?",
-        "answer": "Yes. FRQ performance contributes to the composite estimate, so a stronger FRQ score can offset some missed multiple-choice questions."
+        "question": "How many AP Psych MCQ questions are there?",
+        "answer": "This calculator uses 75 multiple-choice questions for AP Psych planning scenarios."
       },
       {
-        "question": "Should I use this before or after the exam?",
-        "answer": "You can use it before the exam for target planning or after the exam to estimate possible score outcomes."
+        "question": "Can a strong FRQ score offset missed MCQ questions?",
+        "answer": "Yes. A strong FRQ score can improve your composite estimate, but it does not erase a very low MCQ total."
+      },
+      {
+        "question": "Can I miss 20 questions and still get a 5?",
+        "answer": "It may be possible in some estimate scenarios if your FRQ performance is strong, but it is not a safe assumption. Test the exact MCQ and FRQ combination in the calculator."
+      },
+      {
+        "question": "Should I estimate missed or correct questions?",
+        "answer": "The calculator uses MCQ correct. If you know how many you missed, subtract that number from 75 and enter the result."
       }
     ]
   },
@@ -67,7 +85,7 @@
     "BreadcrumbList"
   ],
   "freshness": {
-    "lastUpdated": "2026-05-16",
+    "lastUpdated": "2026-05-19",
     "changeFrequency": "monthly",
     "priority": 0.8
   }

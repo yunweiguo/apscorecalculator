@@ -13,18 +13,28 @@
     "indexing": "index"
   },
   "content": {
-    "directAnswer": "A score of 3 or higher is commonly treated as passing, but college credit policies vary. Use the calculator to estimate whether your performance may reach a 3.",
+    "directAnswer": "A 3 or higher is commonly treated as passing AP Psych, but college credit policies vary. To estimate whether you passed, compare your MCQ correct count and FRQ scores against the calculator's 3+ score range.",
     "calculatorEmbed": "cta",
     "sections": [
       {
         "id": "passing-score",
         "heading": "What Counts as Passing AP Psych?",
-        "body": "Many students think of a 3 or higher as passing, but individual colleges decide whether a score earns credit."
+        "body": "Many students think of a 3 or higher as passing, but individual colleges decide whether a score earns credit or placement. A 3 can be a meaningful benchmark even when a specific college requires a 4 or 5 for credit."
       },
       {
         "id": "estimate-pass",
         "heading": "Estimate Whether You Passed",
-        "body": "Enter your MCQ and FRQ estimates in the calculator to see whether your composite estimate lands in the 3+ range."
+        "body": "Enter your MCQ and FRQ estimates in the calculator to see whether your composite estimate lands in the 3+ range. If your result is close to the cutoff, run low and high FRQ scenarios to understand the possible range."
+      },
+      {
+        "id": "borderline-scenarios",
+        "heading": "Borderline Passing Scenarios",
+        "body": "If your MCQ performance felt average and one FRQ felt weak, you may be near the 2 or 3 boundary. If one section felt weak but the other felt strong, the composite estimate may still reach the passing range."
+      },
+      {
+        "id": "after-exam-anxiety",
+        "heading": "What to Do After the Exam",
+        "body": "After the exam, avoid judging your result from one difficult question. Estimate your total MCQ correct count, score each FRQ conservatively, then compare that with a more optimistic scenario."
       }
     ],
     "faqs": [
@@ -34,15 +44,23 @@
       },
       {
         "question": "Can actual AP score cutoffs vary?",
-        "answer": "Yes. Actual score thresholds can vary by year and exam form, so this tool should be used for planning only."
+        "answer": "Yes. Actual score thresholds can vary by year and exam form, so passing estimates are not official results."
       },
       {
-        "question": "Does FRQ performance matter for AP Psych?",
-        "answer": "Yes. FRQ performance contributes to the composite estimate, so a stronger FRQ score can offset some missed multiple-choice questions."
+        "question": "Is a 3 always enough for college credit?",
+        "answer": "No. A 3 is commonly treated as passing, but each college sets its own AP credit and placement policy."
       },
       {
-        "question": "Should I use this before or after the exam?",
-        "answer": "You can use it before the exam for target planning or after the exam to estimate possible score outcomes."
+        "question": "Can I pass AP Psych with a weak FRQ?",
+        "answer": "Possibly. A stronger MCQ score can help offset a weak FRQ, but you should test conservative FRQ scenarios before assuming you passed."
+      },
+      {
+        "question": "What composite estimate usually points toward passing?",
+        "answer": "A composite estimate around the mid-40s or higher can point toward a 3-level estimate in this calculator, but it is not an official cutoff."
+      },
+      {
+        "question": "Should I check passing or credit requirements?",
+        "answer": "Check both. Passing commonly means 3 or higher, while credit depends on the college or university."
       }
     ]
   },
@@ -67,7 +85,7 @@
     "BreadcrumbList"
   ],
   "freshness": {
-    "lastUpdated": "2026-05-16",
+    "lastUpdated": "2026-05-19",
     "changeFrequency": "monthly",
     "priority": 0.8
   }
