@@ -3,8 +3,9 @@
 import { useMemo, useState } from "react";
 import { calculateReverseScore } from "@/lib/calculator/reverse-score";
 import { trackEvent } from "@/lib/analytics/events";
+import type { AnalyticsContext } from "@/types/analytics";
 
-export function ReverseCalculator() {
+export function ReverseCalculator({ analyticsContext = {} }: { analyticsContext?: AnalyticsContext }) {
   const [target, setTarget] = useState<3 | 4 | 5>(5);
   const result = useMemo(() => calculateReverseScore({ targetScore: target }), [target]);
 
@@ -17,7 +18,7 @@ export function ReverseCalculator() {
         onChange={(e) => {
           const next = Number(e.target.value) as 3 | 4 | 5;
           setTarget(next);
-          trackEvent("reverse_calculator_used", { pagePath: window.location.pathname, targetScore: next });
+          trackEvent("reverse_calculator_used", { pagePath: window.location.pathname, ...analyticsContext, targetScore: next });
         }}
         className="mt-2 w-full rounded-xl border border-slate-300 px-3 py-3"
       >

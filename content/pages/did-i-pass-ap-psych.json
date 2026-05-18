@@ -13,7 +13,7 @@
     "indexing": "index"
   },
   "content": {
-    "directAnswer": "A 3 or higher is commonly treated as passing AP Psych, but college credit policies vary. To estimate whether you passed, compare your MCQ correct count and FRQ scores against the calculator's 3+ score range.",
+    "directAnswer": "A 3 or higher is commonly treated as passing AP Psych, but college credit policies vary. To estimate whether you passed, compare your MCQ correct count and FRQ scores against the calculator's 3+ score range and test conservative FRQ assumptions.",
     "calculatorEmbed": "cta",
     "sections": [
       {
@@ -30,6 +30,11 @@
         "id": "borderline-scenarios",
         "heading": "Borderline Passing Scenarios",
         "body": "If your MCQ performance felt average and one FRQ felt weak, you may be near the 2 or 3 boundary. If one section felt weak but the other felt strong, the composite estimate may still reach the passing range."
+      },
+      {
+        "id": "passing-scenario-examples",
+        "heading": "Examples to Check First",
+        "body": "If you think you got around half of the MCQ questions correct, FRQ points may decide whether your estimate reaches a 3. If your MCQ estimate is stronger, try a low FRQ scenario to see whether you still stay in the passing range."
       },
       {
         "id": "after-exam-anxiety",
@@ -61,6 +66,10 @@
       {
         "question": "Should I check passing or credit requirements?",
         "answer": "Check both. Passing commonly means 3 or higher, while credit depends on the college or university."
+      },
+      {
+        "question": "What if I only remember one section clearly?",
+        "answer": "Enter your best estimate for the section you remember, then test low, medium, and high assumptions for the section you are unsure about."
       }
     ]
   },

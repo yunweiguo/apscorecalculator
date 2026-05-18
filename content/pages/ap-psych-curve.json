@@ -13,7 +13,7 @@
     "indexing": "index"
   },
   "content": {
-    "directAnswer": "The AP Psych curve is best understood as an estimated raw-to-scaled score conversion. A higher MCQ total and stronger FRQ score both raise your composite estimate, but actual AP score cutoffs can vary by year and exam form.",
+    "directAnswer": "The AP Psych curve is best understood as an estimated raw-to-scaled score conversion, not a fixed promise that one raw score always equals one AP score. A higher MCQ total and stronger FRQ score both raise your composite estimate, but actual AP score cutoffs can vary by year and exam form.",
     "calculatorEmbed": "cta",
     "sections": [
       {
@@ -30,6 +30,11 @@
         "id": "score-band-scenarios",
         "heading": "Estimated Score Band Scenarios",
         "body": "As a rough planning model, a composite estimate around the mid-70s or higher is usually a safer 5 target, around the 60s can point toward a 4, and around the mid-40s or higher can point toward a 3. Use the AP Psych Score Calculator to test your own MCQ and FRQ mix."
+      },
+      {
+        "id": "curve-examples",
+        "heading": "AP Psych Curve Example Scenarios",
+        "body": "A student with 60 MCQ correct and average FRQs may sit in a stronger range than a student with 50 MCQ correct and the same FRQs. A student with 50 MCQ correct but strong FRQs may still move up a score band. The curve matters most when your composite estimate is near a 3, 4, or 5 boundary."
       },
       {
         "id": "how-to-use-curve",
@@ -57,6 +62,10 @@
       {
         "question": "What is a safe composite target for a 5?",
         "answer": "A composite estimate around the mid-70s or higher is a safer planning target for a 5, but it is still an estimate rather than an official cutoff."
+      },
+      {
+        "question": "Why do curve estimates feel different across calculators?",
+        "answer": "Different calculators may use different estimated score bands or assumptions about MCQ and FRQ weighting. Treat them as planning tools, not final score reports."
       },
       {
         "question": "Should I use the curve before or after the exam?",

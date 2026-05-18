@@ -2,10 +2,11 @@
 
 import type { FAQItem } from "@/types/content";
 import { trackEvent } from "@/lib/analytics/events";
+import type { AnalyticsContext } from "@/types/analytics";
 
-type Props = { faqs: FAQItem[] };
+type Props = { faqs: FAQItem[]; analyticsContext?: AnalyticsContext };
 
-export function FAQSection({ faqs }: Props) {
+export function FAQSection({ faqs, analyticsContext = {} }: Props) {
   return (
     <section className="mx-auto max-w-3xl px-4 py-10">
       <h2 className="text-2xl font-semibold tracking-tight">FAQ</h2>
@@ -16,7 +17,7 @@ export function FAQSection({ faqs }: Props) {
             className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm"
             onToggle={(event) => {
               if ((event.currentTarget as HTMLDetailsElement).open) {
-                trackEvent("faq_expanded", { pagePath: window.location.pathname, faqQuestion: faq.question });
+                trackEvent("faq_expanded", { pagePath: window.location.pathname, ...analyticsContext, faqQuestion: faq.question });
               }
             }}
           >

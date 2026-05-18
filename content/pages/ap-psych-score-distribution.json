@@ -27,6 +27,11 @@
         "body": "The pass rate usually refers to the share of students earning 3 or higher, while the 5 rate refers to the share earning the top score. A lower 5 rate can make the exam feel more competitive, but your own estimate still depends on your raw performance."
       },
       {
+        "id": "student-use-cases",
+        "heading": "What Distribution Data Can and Cannot Tell You",
+        "body": "Distribution data can tell you whether 5s are relatively common or rare and how many students reached a 3 or higher. It cannot tell you whether your own answer pattern passed, because two students with the same final score may have different MCQ and FRQ mixes."
+      },
+      {
         "id": "distribution-vs-calculator",
         "heading": "Distribution vs. Your Personal Estimate",
         "body": "Distribution data answers how students performed as a group. The AP Psych Score Calculator answers a different question: what your own MCQ and FRQ combination might convert to on a 1 to 5 scale."
@@ -61,6 +66,10 @@
       {
         "question": "Should I compare distribution data with score scenarios?",
         "answer": "Yes. Distribution data gives context, while score scenarios help estimate your own likely score band."
+      },
+      {
+        "question": "Can the score distribution predict my AP Psych score?",
+        "answer": "No. It can show group-level outcomes, but your estimate depends on your own MCQ correct count and FRQ points."
       }
     ]
   },

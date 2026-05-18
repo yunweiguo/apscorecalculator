@@ -13,7 +13,7 @@
     "indexing": "index"
   },
   "content": {
-    "directAnswer": "How many questions you can miss on AP Psych depends on your target score and FRQ performance. Missing 10 questions is very different from missing 25 questions, and a strong FRQ score can change the final estimate.",
+    "directAnswer": "How many questions you can miss on AP Psych depends on your target score and FRQ performance. Missing 10 questions can still leave strong score options, while missing 25 usually requires stronger FRQ support and a lower target score.",
     "calculatorEmbed": "cta",
     "sections": [
       {
@@ -25,6 +25,11 @@
         "id": "scenarios",
         "heading": "Common Missed-Question Scenarios",
         "body": "Try scenarios such as missing 10, 15, 20, or 25 MCQ questions and compare the results with different FRQ scores. For example, 60 correct out of 75 is a much stronger starting point than 50 correct, but FRQ points still matter."
+      },
+      {
+        "id": "missed-to-correct-conversion",
+        "heading": "Convert Missed Questions to MCQ Correct",
+        "body": "The calculator asks for MCQ correct, so subtract missed questions from 75. Missing 10 means entering 65 correct, missing 15 means 60 correct, missing 20 means 55 correct, and missing 25 means 50 correct."
       },
       {
         "id": "target-score-differences",
@@ -61,6 +66,10 @@
       {
         "question": "Should I estimate missed or correct questions?",
         "answer": "The calculator uses MCQ correct. If you know how many you missed, subtract that number from 75 and enter the result."
+      },
+      {
+        "question": "Is missing 15 questions usually better than missing 25?",
+        "answer": "Yes. Missing 15 leaves 60 MCQ correct, while missing 25 leaves 50 MCQ correct. That difference can matter a lot near score cutoffs."
       }
     ]
   },

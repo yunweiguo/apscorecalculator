@@ -7,6 +7,8 @@ import { RelatedLinks } from "@/components/seo/RelatedLinks";
 import { buildSchemas } from "@/lib/seo/schema";
 
 export function CalculatorPage({ page }: { page: PageConfig }) {
+  const analyticsContext = { pageType: page.pageType, primaryKeyword: page.seo.primaryKeyword };
+
   return (
     <>
       <JsonLd data={buildSchemas(page)} />
@@ -15,7 +17,7 @@ export function CalculatorPage({ page }: { page: PageConfig }) {
           <p className="text-sm font-medium text-blue-700">Updated {page.freshness.lastUpdated}</p>
           <h1 className="mt-3 max-w-3xl text-4xl font-bold tracking-tight sm:text-5xl">{page.seo.h1}</h1>
           <p className="mt-4 max-w-3xl text-lg text-slate-600">{page.content.directAnswer}</p>
-          <div className="mt-8"><ApPsychCalculator /></div>
+          <div className="mt-8"><ApPsychCalculator analyticsContext={analyticsContext} /></div>
           <div className="mt-6"><Disclaimer /></div>
         </section>
         {page.content.sections.map((section) => (
@@ -24,7 +26,7 @@ export function CalculatorPage({ page }: { page: PageConfig }) {
             <p className="mt-3 leading-7 text-slate-700">{section.body}</p>
           </section>
         ))}
-        <FAQSection faqs={page.content.faqs} />
+        <FAQSection faqs={page.content.faqs} analyticsContext={analyticsContext} />
         <RelatedLinks page={page} />
       </main>
     </>

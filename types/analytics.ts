@@ -1,19 +1,45 @@
-export type AnalyticsEventName =
-  | "calculator_input_changed"
-  | "score_estimated"
-  | "reverse_calculator_used"
-  | "internal_link_clicked"
-  | "faq_expanded"
-  | "outbound_link_clicked";
+export type AnalyticsEventName = keyof AnalyticsEventPayloads;
 
-export type AnalyticsEventPayload = Record<string, unknown> & {
+export type AnalyticsPageType =
+  | "calculator"
+  | "curve"
+  | "distribution"
+  | "anxiety"
+  | "sub_calculator"
+  | "guide"
+  | "comparison";
+
+export type AnalyticsBasePayload = {
   pagePath: string;
-  pageType?: string;
+  pageType?: AnalyticsPageType;
   primaryKeyword?: string;
-  estimatedScore?: number;
-  targetScore?: number;
+};
+
+export type AnalyticsEventPayloads = {
+  calculator_input_changed: AnalyticsBasePayload;
+  score_estimated: AnalyticsBasePayload & {
+    estimatedScore: number;
+  };
+  reverse_calculator_used: AnalyticsBasePayload & {
+    targetScore: 3 | 4 | 5;
+  };
+  internal_link_clicked: AnalyticsBasePayload & {
+    linkHref: string;
+  };
+  faq_expanded: AnalyticsBasePayload & {
+    faqQuestion: string;
+  };
+};
+
+export type AnalyticsEventPayload = AnalyticsEventPayloads[AnalyticsEventName];
+
+export type AnalyticsContext = {
+  pageType?: AnalyticsPageType;
+  primaryKeyword?: string;
+};
+
+export type AnalyticsLinkPayload = AnalyticsBasePayload & {
   linkHref?: string;
-  faqQuestion?: string;
 };
 
 declare global {

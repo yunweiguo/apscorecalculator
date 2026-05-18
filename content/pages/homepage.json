@@ -19,17 +19,22 @@
       {
         "id": "how-to-use",
         "heading": "How to Use the AP Psych Score Calculator",
-        "body": "Enter your multiple-choice correct answers and your two FRQ scores. The calculator estimates your composite percentage and converts it into an estimated AP score from 1 to 5."
+        "body": "Enter your multiple-choice correct answers out of 75 and your two FRQ scores out of 7 each. The calculator estimates your composite percentage and converts it into an estimated AP score from 1 to 5."
       },
       {
         "id": "scoring-works",
         "heading": "How AP Psychology Scoring Works",
-        "body": "This calculator combines MCQ and FRQ performance into a weighted composite estimate. It is designed for planning and post-exam estimation, not as an official score report."
+        "body": "This calculator uses a weighted estimate: the multiple-choice section counts for most of the composite score, while the two free-response questions make up the remaining share. That means MCQ performance usually drives the estimate, but FRQ points can still move a borderline score."
+      },
+      {
+        "id": "common-scenarios",
+        "heading": "Common AP Psych Score Scenarios",
+        "body": "Strong MCQ, average FRQ: a high MCQ total can keep you in a strong score range even if FRQs are only average. Average MCQ, strong FRQ: strong FRQs can lift a middle MCQ result, especially near the 3 or 4 boundary. Weak FRQ, still aiming for 5: you usually need a very strong MCQ cushion if one or both FRQs feel weak. Trying to reach a 3: focus on whether your combined MCQ and FRQ estimate clears the passing range rather than judging one section alone."
       },
       {
         "id": "score-for-5",
         "heading": "What Score Do You Need to Get a 5 on AP Psych?",
-        "body": "A strong estimated range for a 5 is around 75% or higher on the composite estimate, but actual thresholds may vary by year."
+        "body": "A strong estimated range for a 5 is around 75% or higher on the composite estimate, but actual thresholds may vary by year. Use the reverse score planner to compare conservative and optimistic FRQ assumptions before deciding whether your 5 estimate is safe."
       }
     ],
     "faqs": [
@@ -48,6 +53,22 @@
       {
         "question": "Should I use this before or after the exam?",
         "answer": "You can use it before the exam for target planning or after the exam to estimate possible score outcomes."
+      },
+      {
+        "question": "How are MCQ and FRQ weighted in this AP Psych score calculator?",
+        "answer": "The calculator treats multiple-choice performance as the larger part of the composite estimate and FRQ performance as the remaining part. Both sections matter, especially near score boundaries."
+      },
+      {
+        "question": "Can I still get a 5 with a weak FRQ score?",
+        "answer": "Possibly, but you usually need a strong MCQ cushion. Test a conservative FRQ scenario and compare it with a stronger FRQ scenario to see how much the estimate changes."
+      },
+      {
+        "question": "What if my MCQ score is average but my FRQs are strong?",
+        "answer": "Strong FRQs can improve your composite estimate and may help near the 3 or 4 boundary. For a 5 estimate, you still usually need a strong overall composite score."
+      },
+      {
+        "question": "What AP Psych score counts as passing?",
+        "answer": "A 3 or higher is commonly treated as passing, but college credit policies vary by school. Use the calculator to estimate whether your score may land in the 3+ range."
       }
     ]
   },
@@ -68,7 +89,7 @@
     "WebPage"
   ],
   "freshness": {
-    "lastUpdated": "2026-05-16",
+    "lastUpdated": "2026-05-19",
     "changeFrequency": "weekly",
     "priority": 1.0
   }
