@@ -13,33 +13,33 @@
     "indexing": "index"
   },
   "content": {
-    "directAnswer": "AP Psych score distribution data shows how test takers are spread across scores 1 through 5. It helps explain pass rate and 5 rate, but it does not tell you your personal score without your MCQ and FRQ performance.",
+    "directAnswer": "AP Psych score distribution data shows how test takers are spread across scores 1 through 5. It is useful for understanding pass rate and 5 rate, but it does not tell you your personal score without your own MCQ and FRQ performance.",
     "calculatorEmbed": "cta",
     "sections": [
       {
         "id": "distribution",
         "heading": "How to Read AP Psych Score Distribution",
-        "body": "Score distribution shows the share of students receiving each AP score from 1 to 5. It is useful for understanding how common each score is, but it does not directly reveal the raw-score cutoff for your own exam."
+        "body": "Score distribution shows the share of students receiving each AP score from 1 to 5. It is useful for understanding how common each score is across the whole testing group, but it does not directly reveal the raw-score cutoff for your own exam.\n\nThat distinction matters because students often look at a pass rate or 5 rate and assume it says something precise about their own answers. Distribution data is group-level context, not a personal score report."
       },
       {
         "id": "pass-rate",
         "heading": "Pass Rate and 5 Rate",
-        "body": "The pass rate usually refers to the share of students earning 3 or higher, while the 5 rate refers to the share earning the top score. A lower 5 rate can make the exam feel more competitive, but your own estimate still depends on your raw performance."
+        "body": "The pass rate usually refers to the share of students earning 3 or higher, while the 5 rate refers to the share earning the top score. Those numbers help you understand how selective the top score may be and how often students reach a passing result.\n\nA lower 5 rate can make the exam feel more competitive, but your own estimate still depends on your raw performance. Distribution data alone cannot tell you whether your personal MCQ and FRQ mix was enough."
       },
       {
         "id": "student-use-cases",
         "heading": "What Distribution Data Can and Cannot Tell You",
-        "body": "Distribution data can tell you whether 5s are relatively common or rare and how many students reached a 3 or higher. It cannot tell you whether your own answer pattern passed, because two students with the same final score may have different MCQ and FRQ mixes."
+        "body": "Distribution data can tell you whether 5s are relatively common or rare and how many students reached a 3 or higher. It can also help you set expectations about whether AP Psych is producing a broad middle range or a smaller top-score group.\n\nIt cannot tell you whether your own answer pattern passed, because two students with the same final score may have different MCQ and FRQ mixes. One may get there with stronger multiple-choice accuracy, while another gets there with better FRQ support."
       },
       {
         "id": "distribution-vs-calculator",
         "heading": "Distribution vs. Your Personal Estimate",
-        "body": "Distribution data answers how students performed as a group. The AP Psych Score Calculator answers a different question: what your own MCQ and FRQ combination might convert to on a 1 to 5 scale."
+        "body": "Distribution data answers how students performed as a group. The AP Psych Score Calculator answers a different question: what your own MCQ and FRQ combination might convert to on a 1 to 5 scale.\n\nUse both tools for different jobs. Distribution tells you how common each outcome is, while the calculator helps you test whether your own section-level performance is likely to fall into the 3, 4, or 5 range."
       },
       {
         "id": "how-to-use-distribution",
         "heading": "How to Use Distribution Data",
-        "body": "Use distribution data for context, then use score scenarios for planning. If you are near a cutoff estimate, small changes in FRQ points or MCQ correct count can matter more than the overall score distribution."
+        "body": "Use distribution data for context, then use score scenarios for planning. This is especially useful after score releases, when students want to understand whether a strong or weak top-score rate says anything about their own exam.\n\nIf you are near a cutoff estimate, small changes in FRQ points or MCQ correct count can matter more than the overall score distribution. That is why scenario testing is still the better tool for personal decision-making."
       }
     ],
     "faqs": [
@@ -70,6 +70,14 @@
       {
         "question": "Can the score distribution predict my AP Psych score?",
         "answer": "No. It can show group-level outcomes, but your estimate depends on your own MCQ correct count and FRQ points."
+      },
+      {
+        "question": "What is the difference between AP Psych pass rate and AP Psych score distribution?",
+        "answer": "Pass rate is one summary metric, usually the share of students earning a 3 or higher. Score distribution is the full breakdown across 1, 2, 3, 4, and 5."
+      },
+      {
+        "question": "Does a low AP Psych 5 rate mean I probably did not get a 5?",
+        "answer": "No. A low 5 rate only means fewer students earned the top score overall. Your own result still depends on your personal MCQ and FRQ performance."
       }
     ]
   },

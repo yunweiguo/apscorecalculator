@@ -13,28 +13,33 @@
     "indexing": "index"
   },
   "content": {
-    "directAnswer": "Use this AP Psych Score Calculator to estimate your AP Psychology score from 1 to 5 based on your multiple-choice and free-response performance.",
+    "directAnswer": "Use this AP Psych Score Calculator to estimate your AP Psychology score from 1 to 5 based on your multiple-choice and free-response performance, then compare score scenarios to see how close you may be to a 3, 4, or 5.",
     "calculatorEmbed": "full",
     "sections": [
       {
         "id": "how-to-use",
         "heading": "How to Use the AP Psych Score Calculator",
-        "body": "Enter your multiple-choice correct answers out of 75 and your two FRQ scores out of 7 each. The calculator estimates your composite percentage and converts it into an estimated AP score from 1 to 5."
+        "body": "Enter your multiple-choice correct answers out of 75 and your two FRQ scores out of 7 each. The calculator estimates your weighted composite percentage and converts it into an estimated AP score from 1 to 5. If you are unsure about your FRQ performance, try a conservative estimate first and then compare it with a stronger FRQ outcome to see how much the predicted score changes."
       },
       {
         "id": "scoring-works",
         "heading": "How AP Psychology Scoring Works",
-        "body": "This calculator uses a weighted estimate: the multiple-choice section counts for most of the composite score, while the two free-response questions make up the remaining share. That means MCQ performance usually drives the estimate, but FRQ points can still move a borderline score."
+        "body": "AP Psychology scoring is not just raw points added together. This calculator uses a weighted estimate that gives the multiple-choice section about two-thirds of the composite and the two FRQs about one-third. That makes MCQ performance the main driver of your estimate, but FRQ points still matter when you are close to an AP score cutoff."
       },
       {
         "id": "common-scenarios",
         "heading": "Common AP Psych Score Scenarios",
-        "body": "Strong MCQ, average FRQ: a high MCQ total can keep you in a strong score range even if FRQs are only average. Average MCQ, strong FRQ: strong FRQs can lift a middle MCQ result, especially near the 3 or 4 boundary. Weak FRQ, still aiming for 5: you usually need a very strong MCQ cushion if one or both FRQs feel weak. Trying to reach a 3: focus on whether your combined MCQ and FRQ estimate clears the passing range rather than judging one section alone."
+        "body": "Students usually do not need a single perfect score pattern. What matters is how your MCQ and FRQ performance combine after weighting. These common AP Psych score scenarios show how different section strengths can still lead to a solid estimate."
       },
       {
         "id": "score-for-5",
         "heading": "What Score Do You Need to Get a 5 on AP Psych?",
-        "body": "A strong estimated range for a 5 is around 75% or higher on the composite estimate, but actual thresholds may vary by year. Use the reverse score planner to compare conservative and optimistic FRQ assumptions before deciding whether your 5 estimate is safe."
+        "body": "A strong estimated range for a 5 is around 75% or higher on the composite estimate, but actual thresholds may vary by year and exam form. If your estimate lands near that line, treat it as a maybe rather than a lock. The reverse score planner is useful here because it lets you compare a safer FRQ assumption with a best-case assumption before deciding whether your 5 range looks comfortable."
+      },
+      {
+        "id": "interpreting-results",
+        "heading": "How to Interpret Your Estimated AP Psych Score",
+        "body": "Use the result as a planning tool, not a guarantee. Before the exam, it helps you identify whether you need more MCQ accuracy, stronger FRQ execution, or both. After the exam, it helps you judge whether your score likely lands in the 3, 4, or 5 range. The most useful approach is to test a few realistic scenarios instead of assuming one exact outcome."
       }
     ],
     "faqs": [
@@ -56,7 +61,7 @@
       },
       {
         "question": "How are MCQ and FRQ weighted in this AP Psych score calculator?",
-        "answer": "The calculator treats multiple-choice performance as the larger part of the composite estimate and FRQ performance as the remaining part. Both sections matter, especially near score boundaries."
+        "answer": "The calculator treats multiple-choice performance as about two-thirds of the composite estimate and the two FRQs as about one-third. MCQ usually has the biggest impact, but FRQs still matter a lot when you are close to a 3, 4, or 5 cutoff."
       },
       {
         "question": "Can I still get a 5 with a weak FRQ score?",
@@ -69,6 +74,18 @@
       {
         "question": "What AP Psych score counts as passing?",
         "answer": "A 3 or higher is commonly treated as passing, but college credit policies vary by school. Use the calculator to estimate whether your score may land in the 3+ range."
+      },
+      {
+        "question": "What is a safe AP Psych score estimate for a 5?",
+        "answer": "An estimate around or above the mid-70 percent range is often a stronger place to be, but there is no universal guaranteed cutoff. If your estimate is only barely in the 5 range, it is better to treat it as borderline."
+      },
+      {
+        "question": "Should I estimate my FRQ score conservatively?",
+        "answer": "Usually yes. If you are not sure how your FRQs would be graded, start with a cautious estimate and then test a higher one. That gives you a more realistic range instead of a single overly optimistic result."
+      },
+      {
+        "question": "Can this calculator help me target a 3 before exam day?",
+        "answer": "Yes. Use it to see whether your current mix of MCQ accuracy and FRQ performance is likely to reach the passing range. That makes it easier to decide whether your study time should focus on content recall, pacing, or FRQ practice."
       }
     ]
   },

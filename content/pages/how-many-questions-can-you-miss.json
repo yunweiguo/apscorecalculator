@@ -13,33 +13,33 @@
     "indexing": "index"
   },
   "content": {
-    "directAnswer": "How many questions you can miss on AP Psych depends on your target score and FRQ performance. Missing 10 questions can still leave strong score options, while missing 25 usually requires stronger FRQ support and a lower target score.",
+    "directAnswer": "How many questions you can miss on AP Psych depends on your target score and FRQ performance, not just the multiple-choice section by itself. Missing 10 questions can still leave strong score options, while missing 25 usually creates much more pressure on the FRQs and makes a top score less comfortable.",
     "calculatorEmbed": "cta",
     "sections": [
       {
         "id": "missed-questions",
         "heading": "Missed Questions Are Only Part of the Score",
-        "body": "A missed-question estimate is useful, but it only covers the multiple-choice section. Your final AP Psych estimate also depends on the points you earn across the two FRQs."
+        "body": "A missed-question estimate is useful, but it only covers the multiple-choice section. Your final AP Psych estimate also depends on the points you earn across the two FRQs, which is why students with the same number of missed questions can still end up with different score estimates.\n\nThis is the main reason there is no universal answer to how many questions can you miss on AP Psych. The right answer changes depending on whether you are aiming for a 3, 4, or 5 and whether your free-response section felt strong or shaky."
       },
       {
         "id": "scenarios",
         "heading": "Common Missed-Question Scenarios",
-        "body": "Try scenarios such as missing 10, 15, 20, or 25 MCQ questions and compare the results with different FRQ scores. For example, 60 correct out of 75 is a much stronger starting point than 50 correct, but FRQ points still matter."
+        "body": "Try scenarios such as missing 10, 15, 20, or 25 MCQ questions and compare the results with different FRQ scores. For example, 60 correct out of 75 is a much stronger starting point than 50 correct, but FRQ points still matter.\n\nThe point of these scenarios is not to memorize one exact threshold. It is to see how much room you have left after the multiple-choice section and whether the FRQs need to save the estimate."
       },
       {
         "id": "missed-to-correct-conversion",
         "heading": "Convert Missed Questions to MCQ Correct",
-        "body": "The calculator asks for MCQ correct, so subtract missed questions from 75. Missing 10 means entering 65 correct, missing 15 means 60 correct, missing 20 means 55 correct, and missing 25 means 50 correct."
+        "body": "The calculator asks for MCQ correct, so subtract missed questions from 75. Missing 10 means entering 65 correct, missing 15 means 60 correct, missing 20 means 55 correct, and missing 25 means 50 correct.\n\nThat conversion matters because students often think in terms of what they got wrong after the exam, while the tool estimates scores from what you got right."
       },
       {
         "id": "target-score-differences",
         "heading": "Missing Questions for a 3, 4, or 5",
-        "body": "A score goal of 3 gives you more room for missed MCQ questions than a goal of 5. If you are aiming for a 5, test conservative FRQ assumptions. If you are aiming for a 3 or 4, focus on whether your total composite estimate clears the relevant band."
+        "body": "A score goal of 3 gives you more room for missed MCQ questions than a goal of 5. If you are aiming for a 5, test conservative FRQ assumptions because the top score leaves less margin for error.\n\nIf you are aiming for a 3 or 4, focus on whether your total composite estimate clears the relevant band rather than obsessing over one exact missed-question number. The same MCQ total can look fine for a 3 but risky for a 5."
       },
       {
         "id": "post-exam-estimate",
         "heading": "How to Estimate After the Exam",
-        "body": "After the exam, start with your best memory of how many MCQ questions you got right. Then enter low, medium, and high FRQ estimates to see the range of possible AP scores."
+        "body": "After the exam, start with your best memory of how many MCQ questions you got right. Then enter low, medium, and high FRQ estimates to see the range of possible AP scores.\n\nThis is much more useful than picking one guess and treating it as final. If your score range changes a lot between conservative and optimistic FRQs, your result is probably close to a boundary."
       }
     ],
     "faqs": [
@@ -70,6 +70,14 @@
       {
         "question": "Is missing 15 questions usually better than missing 25?",
         "answer": "Yes. Missing 15 leaves 60 MCQ correct, while missing 25 leaves 50 MCQ correct. That difference can matter a lot near score cutoffs."
+      },
+      {
+        "question": "How many questions can you miss on AP Psych and still get a 3?",
+        "answer": "Usually more than you could miss for a 5, because a passing estimate is less demanding. The exact answer still depends on your FRQ scores, so it is better to test combinations than rely on one blanket number."
+      },
+      {
+        "question": "How many questions can you miss on AP Psych and still get a 4?",
+        "answer": "A 4 generally leaves less room than a 3 but more than a 5. If your FRQs are strong, you can sometimes absorb more missed MCQ questions than you expect."
       }
     ]
   },

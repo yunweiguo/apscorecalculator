@@ -13,33 +13,33 @@
     "indexing": "index"
   },
   "content": {
-    "directAnswer": "A 3 or higher is commonly treated as passing AP Psych, but college credit policies vary. To estimate whether you passed, compare your MCQ correct count and FRQ scores against the calculator's 3+ score range and test conservative FRQ assumptions.",
+    "directAnswer": "A 3 or higher is commonly treated as passing AP Psych, but college credit policies vary by school. To estimate whether you passed, compare your MCQ correct count and FRQ scores against the calculator's 3+ score range and test conservative FRQ assumptions if you think you are close to the line.",
     "calculatorEmbed": "cta",
     "sections": [
       {
         "id": "passing-score",
         "heading": "What Counts as Passing AP Psych?",
-        "body": "Many students think of a 3 or higher as passing, but individual colleges decide whether a score earns credit or placement. A 3 can be a meaningful benchmark even when a specific college requires a 4 or 5 for credit."
+        "body": "Many students think of a 3 or higher as passing, but individual colleges decide whether a score earns credit or placement. A 3 can still be a meaningful benchmark even when a specific college requires a 4 or 5 for credit.\n\nThat is why passing and earning credit are related but not identical questions. This page focuses on the first question: whether your exam performance likely reached the 3 range."
       },
       {
         "id": "estimate-pass",
         "heading": "Estimate Whether You Passed",
-        "body": "Enter your MCQ and FRQ estimates in the calculator to see whether your composite estimate lands in the 3+ range. If your result is close to the cutoff, run low and high FRQ scenarios to understand the possible range."
+        "body": "Enter your MCQ and FRQ estimates in the calculator to see whether your composite estimate lands in the 3+ range. If your result is close to the cutoff, run low and high FRQ scenarios to understand the possible range.\n\nThis matters because students often remember one section more clearly than the other. A range-based estimate gives you a better picture than pretending you know the exact FRQ outcome."
       },
       {
         "id": "borderline-scenarios",
         "heading": "Borderline Passing Scenarios",
-        "body": "If your MCQ performance felt average and one FRQ felt weak, you may be near the 2 or 3 boundary. If one section felt weak but the other felt strong, the composite estimate may still reach the passing range."
+        "body": "If your MCQ performance felt average and one FRQ felt weak, you may be near the 2 or 3 boundary. If one section felt weak but the other felt strong, the composite estimate may still reach the passing range.\n\nBorderline cases are where students benefit most from scenario testing. A passing estimate is often less about one disastrous moment and more about how the whole exam fits together."
       },
       {
         "id": "passing-scenario-examples",
         "heading": "Examples to Check First",
-        "body": "If you think you got around half of the MCQ questions correct, FRQ points may decide whether your estimate reaches a 3. If your MCQ estimate is stronger, try a low FRQ scenario to see whether you still stay in the passing range."
+        "body": "If you think you got around half of the MCQ questions correct, FRQ points may decide whether your estimate reaches a 3. If your MCQ estimate is stronger, try a low FRQ scenario to see whether you still stay in the passing range.\n\nA useful rule is to test one conservative setup and one realistic middle-case setup. If both land at 3 or higher, the passing estimate is more encouraging. If one drops to 2, you are probably near the line."
       },
       {
         "id": "after-exam-anxiety",
         "heading": "What to Do After the Exam",
-        "body": "After the exam, avoid judging your result from one difficult question. Estimate your total MCQ correct count, score each FRQ conservatively, then compare that with a more optimistic scenario."
+        "body": "After the exam, avoid judging your result from one difficult question. Estimate your total MCQ correct count, score each FRQ conservatively, then compare that with a more optimistic scenario.\n\nThis approach is more useful than doom-scrolling for other students' guesses. Your likely score depends on your whole performance, not on whether one FRQ prompt felt worse than expected."
       }
     ],
     "faqs": [
@@ -70,6 +70,14 @@
       {
         "question": "What if I only remember one section clearly?",
         "answer": "Enter your best estimate for the section you remember, then test low, medium, and high assumptions for the section you are unsure about."
+      },
+      {
+        "question": "Can I pass AP Psych with average MCQ and average FRQ scores?",
+        "answer": "Possibly, yes. A 3 estimate is generally more attainable than a 4 or 5, so balanced average performance can still be enough depending on the exact mix."
+      },
+      {
+        "question": "How do I know if my passing estimate is safe?",
+        "answer": "Run a conservative FRQ version of your score. If the estimate still stays at 3 or higher, that is a stronger sign than a single optimistic scenario."
       }
     ]
   },

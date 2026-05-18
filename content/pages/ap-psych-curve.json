@@ -13,33 +13,33 @@
     "indexing": "index"
   },
   "content": {
-    "directAnswer": "The AP Psych curve is best understood as an estimated raw-to-scaled score conversion, not a fixed promise that one raw score always equals one AP score. A higher MCQ total and stronger FRQ score both raise your composite estimate, but actual AP score cutoffs can vary by year and exam form.",
+    "directAnswer": "The AP Psych curve is best understood as an estimated raw-to-scaled score conversion, not a fixed promise that one raw score always equals one AP score. In practical terms, stronger MCQ performance and stronger FRQ scores raise your composite estimate, but the exact 1-to-5 cutoffs can vary by year and exam form.",
     "calculatorEmbed": "cta",
     "sections": [
       {
         "id": "what-is-curve",
         "heading": "What Is the AP Psych Curve?",
-        "body": "Students often call the score conversion a curve, but the practical question is how raw exam performance turns into a 1 to 5 score. For planning, treat the curve as an estimated composite range rather than a fixed number of questions you must answer correctly."
+        "body": "Students often call the score conversion a curve, but the practical question is how raw exam performance turns into a 1 to 5 score. On AP Psychology, that means your multiple-choice result and your two FRQ scores combine into an estimated composite, and that composite is then interpreted against score bands.\n\nFor planning, it is better to think in ranges than in one magical cutoff. A curve estimate can tell you whether your overall performance looks more like a 3, 4, or 5 scenario, but it cannot guarantee that one exact raw score will always map to the same final result."
       },
       {
         "id": "raw-score",
         "heading": "Raw Score to AP Score Conversion",
-        "body": "Your MCQ correct count and FRQ points combine into a composite estimate. For example, a student with a strong MCQ score but weaker FRQs may land near a cutoff, while a student with fewer MCQ points can sometimes recover with stronger FRQ performance."
+        "body": "Your MCQ correct count and FRQ points combine into a composite estimate rather than being judged separately. Because the MCQ section carries more weight, it usually drives the overall direction of the score. The FRQs still matter because they can strengthen or weaken a borderline estimate.\n\nThat is why two students can feel very different about the same exam and still end up near the same score band. One student may lean on strong multiple-choice accuracy, while another reaches a similar estimate by pairing a more average MCQ result with stronger free-response writing."
       },
       {
         "id": "score-band-scenarios",
         "heading": "Estimated Score Band Scenarios",
-        "body": "As a rough planning model, a composite estimate around the mid-70s or higher is usually a safer 5 target, around the 60s can point toward a 4, and around the mid-40s or higher can point toward a 3. Use the AP Psych Score Calculator to test your own MCQ and FRQ mix."
+        "body": "As a rough planning model, a composite estimate around the mid-70s or higher is usually a safer 5 target, around the 60s can point toward a 4, and around the mid-40s or higher can point toward a 3. Those are planning bands, not official score releases.\n\nThe useful takeaway is that the curve becomes more sensitive when you are near a boundary. If your estimate is comfortably above a band threshold, small FRQ differences may not change much. If you are right on the line, a few points can change the likely result."
       },
       {
         "id": "curve-examples",
         "heading": "AP Psych Curve Example Scenarios",
-        "body": "A student with 60 MCQ correct and average FRQs may sit in a stronger range than a student with 50 MCQ correct and the same FRQs. A student with 50 MCQ correct but strong FRQs may still move up a score band. The curve matters most when your composite estimate is near a 3, 4, or 5 boundary."
+        "body": "Example scenarios make the curve easier to understand than abstract percentages. A student with 60 MCQ correct and average FRQs may sit in a much stronger range than a student with 50 MCQ correct and the same FRQs. On the other hand, a student with a more average MCQ result can still improve the estimate if both FRQs are genuinely strong.\n\nThis is why curve discussions are most useful when you attach them to section-level performance. Instead of asking for one fixed AP Psych curve, ask what happens if your MCQ was a little stronger or your FRQs were a little weaker."
       },
       {
         "id": "how-to-use-curve",
         "heading": "How to Use the Curve Without Overtrusting It",
-        "body": "Use the curve page to understand the relationship between raw performance and score bands, then use the calculator to test scenarios. Do not treat any estimated cutoff as guaranteed, because official scoring decisions and exam forms can change."
+        "body": "Use the curve page to understand the relationship between raw performance and score bands, then test your own scenario in the calculator. That gives you a better answer than memorizing one old cutoff from a forum post.\n\nDo not treat any estimated cutoff as guaranteed. Official scoring decisions, exam forms, and yearly variation can all change where the final boundaries land."
       }
     ],
     "faqs": [
@@ -70,6 +70,14 @@
       {
         "question": "Should I use the curve before or after the exam?",
         "answer": "Use it before the exam to set targets and after the exam to estimate possible outcomes. In both cases, compare multiple MCQ and FRQ scenarios."
+      },
+      {
+        "question": "Does the AP Psych curve mean the exam is graded on a true bell curve?",
+        "answer": "Not in the way students often mean it. The phrase curve is usually shorthand for raw-to-scaled score conversion, not a promise that scores are forced into a strict bell-shaped distribution."
+      },
+      {
+        "question": "Is the AP Psych curve more about MCQ or FRQ performance?",
+        "answer": "Both matter, but MCQ usually has the larger effect because it carries more weight in the estimate. FRQs are especially important when your result is near a score boundary."
       }
     ]
   },

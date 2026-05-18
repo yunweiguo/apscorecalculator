@@ -1,6 +1,7 @@
 import type { PageConfig } from "@/types/content";
 import { ApPsychCalculator } from "@/components/calculator/ApPsychCalculator";
 import { Disclaimer } from "@/components/content/Disclaimer";
+import { HomepageSectionBlock } from "@/components/content/HomepageSectionBlock";
 import { FAQSection } from "@/components/seo/FAQSection";
 import { JsonLd } from "@/components/seo/JsonLd";
 import { RelatedLinks } from "@/components/seo/RelatedLinks";
@@ -21,10 +22,7 @@ export function CalculatorPage({ page }: { page: PageConfig }) {
           <div className="mt-6"><Disclaimer /></div>
         </section>
         {page.content.sections.map((section) => (
-          <section key={section.id} className="mx-auto max-w-3xl px-4 py-7">
-            <h2 className="text-2xl font-semibold tracking-tight">{section.heading}</h2>
-            <p className="mt-3 leading-7 text-slate-700">{section.body}</p>
-          </section>
+          <HomepageSectionBlock key={section.id} section={section} />
         ))}
         <FAQSection faqs={page.content.faqs} analyticsContext={analyticsContext} />
         <RelatedLinks page={page} />
