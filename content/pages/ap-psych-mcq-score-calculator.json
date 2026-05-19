@@ -1,0 +1,105 @@
+{
+  "slug": "ap-psych-mcq-score-calculator",
+  "url": "/ap-psych-mcq-score-calculator",
+  "pageType": "sub_calculator",
+  "subjectSlug": "ap-psychology",
+  "seo": {
+    "primaryKeyword": "ap psych mcq score calculator",
+    "secondaryKeywords": [],
+    "title": "AP Psych MCQ Score Calculator | Estimate Your Multiple-Choice Impact",
+    "description": "Use this AP Psych MCQ score calculator guide to estimate how your AP Psychology multiple-choice correct answers may affect your overall AP score.",
+    "h1": "AP Psych MCQ Score Calculator",
+    "canonicalPath": "/ap-psych-mcq-score-calculator",
+    "indexing": "index"
+  },
+  "content": {
+    "directAnswer": "An AP Psych MCQ score calculator helps you estimate how your multiple-choice correct answers affect your overall AP Psychology score. On this exam, the 75-question MCQ section makes up about two-thirds of the composite estimate, so your MCQ result usually sets the main direction of the score while the FRQs refine how strong that estimate looks.",
+    "calculatorEmbed": "cta",
+    "sections": [
+      {
+        "id": "how-mcq-works",
+        "heading": "How AP Psych MCQ Correct Answers Affect Your Score",
+        "body": "The AP Psychology multiple-choice section is scored from your number of correct answers out of 75. In this calculator model, that MCQ result makes up about two-thirds of the composite estimate, which means it usually has the biggest effect on your likely score band.\n\nThat does not mean the FRQs are irrelevant. It means MCQ often sets the floor and ceiling of the estimate, while FRQ performance helps decide how safe or borderline the final result feels."
+      },
+      {
+        "id": "mcq-scenarios",
+        "heading": "Common AP Psych MCQ Score Scenarios",
+        "body": "MCQ ranges are easier to reason about than one exact perfect target. A lower total such as 45 out of 75 usually means the FRQs need to do more work. A middle score such as 55 out of 75 can support a respectable estimate, while 60 out of 75 or 65 out of 75 can create much stronger score pressure in your favor.\n\nThese scenario bands are useful because they show whether your estimate depends on unusually strong FRQ support or whether your multiple-choice result already gives you a solid foundation."
+      },
+      {
+        "id": "mcq-vs-frq",
+        "heading": "MCQ Impact vs. FRQ Impact",
+        "body": "MCQ carries more weight than FRQ in the estimate, so a stronger multiple-choice result usually moves the composite more than the same improvement in free-response points. That is why students who do well on MCQ often have more flexibility if the FRQs felt average.\n\nA weaker MCQ result can still be partially supported by strong FRQs, but the rescue power has limits. In most cases, the safest path to a higher estimate starts with a strong multiple-choice base."
+      },
+      {
+        "id": "when-mcq-matters-most",
+        "heading": "When MCQ Performance Matters Most",
+        "body": "MCQ performance matters most when you are trying to understand your overall ceiling. If your MCQ estimate is low, even excellent FRQs may only lift the result so far. If your MCQ estimate is already strong, FRQs become more about protecting a good score band than saving the entire exam.\n\nThis is especially important near the 4 and 5 range, where students often need both a strong MCQ total and at least decent FRQ support."
+      },
+      {
+        "id": "how-to-use-page",
+        "heading": "How to Use This AP Psych MCQ Score Calculator Page",
+        "body": "Start with your best estimate for how many MCQ questions you got right, then run the full AP Psych Score Calculator with a conservative and a stronger FRQ assumption. After that, adjust the MCQ total up or down to see how sensitive your score estimate is.\n\nIf the score changes quickly when you move from 55 out of 75 to 60 out of 75, you are likely near a boundary. If the estimate stays stable across a few MCQ ranges, the rest of your score profile may already be giving you enough cushion."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Is this calculator official?",
+        "answer": "No. This calculator is an independent estimate and is not affiliated with or endorsed by College Board."
+      },
+      {
+        "question": "Can actual AP score cutoffs vary?",
+        "answer": "Yes. Actual score thresholds can vary by year and exam form, so MCQ-based score estimates should be used for planning only."
+      },
+      {
+        "question": "How many MCQ questions are there on AP Psych?",
+        "answer": "This calculator uses 75 AP Psychology multiple-choice questions."
+      },
+      {
+        "question": "How much does the MCQ section count on AP Psych?",
+        "answer": "In this estimate model, the MCQ section makes up about two-thirds of the composite score, while the FRQ section makes up the remaining share."
+      },
+      {
+        "question": "Can a strong MCQ score raise my AP Psych estimate a lot?",
+        "answer": "Yes. Because MCQ carries the larger weight, stronger multiple-choice performance often has the biggest effect on your estimated score band."
+      },
+      {
+        "question": "What does a 55 out of 75 MCQ score mean for AP Psych?",
+        "answer": "A 55 out of 75 MCQ total is a respectable middle-to-strong result. Whether it supports a 3, 4, or 5 estimate still depends on your FRQ points and the overall composite."
+      },
+      {
+        "question": "Can a 65 out of 75 MCQ score offset weaker FRQs?",
+        "answer": "It can create strong cushion, but weak FRQs can still matter, especially if you are aiming for a 5 rather than simply trying to pass."
+      },
+      {
+        "question": "Should I estimate MCQ correct answers conservatively after the exam?",
+        "answer": "Usually yes. Start with a realistic or slightly cautious estimate, then test a higher and lower MCQ total to see how much the result changes."
+      }
+    ]
+  },
+  "internalLinks": {
+    "required": [
+      {
+        "href": "/",
+        "anchor": "AP Psych Score Calculator",
+        "placement": "hero"
+      }
+    ],
+    "related": [
+      "/",
+      "/ap-psych-frq-score-calculator",
+      "/how-many-questions-can-you-miss",
+      "/what-score-do-you-need-to-get-a-5"
+    ]
+  },
+  "schema": [
+    "SoftwareApplication",
+    "FAQPage",
+    "BreadcrumbList"
+  ],
+  "freshness": {
+    "lastUpdated": "2026-05-19",
+    "changeFrequency": "monthly",
+    "priority": 0.8
+  }
+}

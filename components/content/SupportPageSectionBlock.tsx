@@ -83,6 +83,24 @@ const scenarioCards: Record<string, ScenarioCard[]> = {
       title: "12/14 FRQ",
       description: "This is an excellent FRQ result. It does not erase a weak MCQ section, but it can add real cushion when the rest of the exam was already solid."
     }
+  ],
+  "ap-psych-mcq-score-calculator:mcq-scenarios": [
+    {
+      title: "45/75 MCQ",
+      description: "This is a modest MCQ base. A student here usually needs stronger FRQs to stay comfortably in the passing or mid-score range."
+    },
+    {
+      title: "55/75 MCQ",
+      description: "This is a more competitive MCQ result that can support a solid estimate, especially if the FRQs are not weak."
+    },
+    {
+      title: "60/75 MCQ",
+      description: "This is a strong MCQ outcome. It often creates useful cushion and can keep higher score bands in play with decent FRQs."
+    },
+    {
+      title: "65/75 MCQ",
+      description: "This is an excellent MCQ result. It gives the estimate a strong foundation, though FRQs still matter near the very top of the range."
+    }
   ]
 };
 
