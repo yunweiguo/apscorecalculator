@@ -65,6 +65,24 @@ const scenarioCards: Record<string, ScenarioCard[]> = {
       title: "Uneven sections",
       description: "If one section felt clearly better than the other, test low and high scenarios instead of assuming the weaker section ruined the whole score."
     }
+  ],
+  "ap-psych-frq-score-calculator:frq-scenarios": [
+    {
+      title: "4/14 FRQ",
+      description: "This is a weak FRQ outcome. A student in this range usually needs a stronger MCQ result to protect the overall estimate."
+    },
+    {
+      title: "7/14 FRQ",
+      description: "This is closer to a middle FRQ result. It can be workable, but it often leaves less margin if the MCQ section was only average."
+    },
+    {
+      title: "10/14 FRQ",
+      description: "This is a strong FRQ outcome that can meaningfully lift a borderline composite estimate, especially near the 3 or 4 boundary."
+    },
+    {
+      title: "12/14 FRQ",
+      description: "This is an excellent FRQ result. It does not erase a weak MCQ section, but it can add real cushion when the rest of the exam was already solid."
+    }
   ]
 };
 

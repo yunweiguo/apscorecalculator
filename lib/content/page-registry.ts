@@ -1,12 +1,13 @@
 import homepage from "@/content/pages/homepage.json";
 import curve from "@/content/pages/ap-psych-curve.json";
+import frqCalculator from "@/content/pages/ap-psych-frq-score-calculator.json";
 import targetFive from "@/content/pages/what-score-do-you-need-to-get-a-5.json";
 import missed from "@/content/pages/how-many-questions-can-you-miss.json";
 import distribution from "@/content/pages/ap-psych-score-distribution.json";
 import didIPass from "@/content/pages/did-i-pass-ap-psych.json";
 import type { PageConfig } from "@/types/content";
 
-const pages = [homepage, curve, targetFive, missed, distribution, didIPass] as PageConfig[];
+const pages = [homepage, curve, frqCalculator, targetFive, missed, distribution, didIPass] as PageConfig[];
 
 export function getAllPages(): PageConfig[] {
   return pages;
