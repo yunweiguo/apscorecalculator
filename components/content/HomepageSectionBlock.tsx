@@ -1,7 +1,9 @@
 import subject from "@/content/subjects/ap-psychology.json";
+import { TrackedInternalLink } from "@/components/analytics/TrackedInternalLink";
 import type { ContentSection } from "@/types/content";
 
 const apPsychSubject = subject;
+const estimatedBands = apPsychSubject.scoring.estimatedScoreBands;
 
 const scenarioCards = [
   {
@@ -26,7 +28,101 @@ const scenarioCards = [
   }
 ];
 
+const calculatorGuideLinks = [
+  {
+    href: "/",
+    title: "Full AP Psych Score Calculator",
+    description: "Use the main calculator when you want a complete MCQ + FRQ estimate from 1 to 5."
+  },
+  {
+    href: "/ap-psych-frq-score-calculator",
+    title: "FRQ impact tool",
+    description: "Use this when you want to see how free-response points change a borderline score."
+  },
+  {
+    href: "/ap-psych-mcq-score-calculator",
+    title: "MCQ impact tool",
+    description: "Use this when you want to know how your multiple-choice accuracy drives the estimate."
+  },
+  {
+    href: "/what-score-do-you-need-to-get-a-5",
+    title: "Target 5 planning",
+    description: "Use this when your main question is what score range usually puts you in 5 territory."
+  },
+  {
+    href: "/how-many-questions-can-you-miss",
+    title: "Missed-question planning",
+    description: "Use this when you want to translate missed MCQs into likely score pressure."
+  },
+  {
+    href: "/ap-psych-curve",
+    title: "Curve explanation",
+    description: "Use this when you want context on estimated raw-to-score conversion instead of one prediction."
+  },
+  {
+    href: "/ap-psych-score-distribution",
+    title: "Score distribution context",
+    description: "Use this when you want to compare your estimate with broader pass-rate and 5-rate context."
+  },
+  {
+    href: "/did-i-pass-ap-psych",
+    title: "Passing-score check",
+    description: "Use this when your main question is whether your current range is likely above a 3."
+  }
+];
+
 export function HomepageSectionBlock({ section }: { section: ContentSection }) {
+  if (section.id === "scoring-quick-reference") {
+    const mcqWeight = (apPsychSubject.scoring.weights.mcq * 100).toFixed(1);
+    const frqWeight = (apPsychSubject.scoring.weights.frq * 100).toFixed(1);
+    const score5 = estimatedBands.find((band) => band.score === 5);
+    const score4 = estimatedBands.find((band) => band.score === 4);
+    const score3 = estimatedBands.find((band) => band.score === 3);
+
+    return (
+      <section className="mx-auto max-w-3xl px-4 py-7">
+        <h2 className="text-2xl font-semibold tracking-tight">{section.heading}</h2>
+        <p className="mt-3 leading-7 text-slate-700">{section.body}</p>
+        <div className="mt-5 overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm">
+          <div className="grid grid-cols-[minmax(0,1.4fr)_minmax(0,1fr)] bg-slate-50 px-4 py-3 text-sm font-semibold text-slate-900">
+            <div>Reference point</div>
+            <div>Estimate</div>
+          </div>
+          <div className="divide-y divide-slate-200 text-sm leading-6 text-slate-700">
+            <div className="grid grid-cols-[minmax(0,1.4fr)_minmax(0,1fr)] px-4 py-3">
+              <div>MCQ questions</div>
+              <div>{apPsychSubject.scoring.mcqMax}</div>
+            </div>
+            <div className="grid grid-cols-[minmax(0,1.4fr)_minmax(0,1fr)] px-4 py-3">
+              <div>FRQ points</div>
+              <div>{apPsychSubject.scoring.frqMax}</div>
+            </div>
+            <div className="grid grid-cols-[minmax(0,1.4fr)_minmax(0,1fr)] px-4 py-3">
+              <div>Estimated MCQ weight</div>
+              <div>about {mcqWeight}%</div>
+            </div>
+            <div className="grid grid-cols-[minmax(0,1.4fr)_minmax(0,1fr)] px-4 py-3">
+              <div>Estimated FRQ weight</div>
+              <div>about {frqWeight}%</div>
+            </div>
+            <div className="grid grid-cols-[minmax(0,1.4fr)_minmax(0,1fr)] px-4 py-3">
+              <div>Estimated 5 range</div>
+              <div>around {score5?.minPercent}%+ composite</div>
+            </div>
+            <div className="grid grid-cols-[minmax(0,1.4fr)_minmax(0,1fr)] px-4 py-3">
+              <div>Estimated 4 range</div>
+              <div>around {score4?.minPercent}% to {Math.floor(score4?.maxPercent ?? 0)}%</div>
+            </div>
+            <div className="grid grid-cols-[minmax(0,1.4fr)_minmax(0,1fr)] px-4 py-3">
+              <div>Estimated 3 range</div>
+              <div>around {score3?.minPercent}% to {Math.floor(score3?.maxPercent ?? 0)}%</div>
+            </div>
+          </div>
+        </div>
+      </section>
+    );
+  }
+
   if (section.id === "scoring-works") {
     const mcqWeight = Math.round(apPsychSubject.scoring.weights.mcq * 100);
     const frqWeight = Math.round(apPsychSubject.scoring.weights.frq * 100);
@@ -71,6 +167,28 @@ export function HomepageSectionBlock({ section }: { section: ContentSection }) {
               <h3 className="text-lg font-semibold text-slate-900">{scenario.title}</h3>
               <p className="mt-3 text-sm leading-6 text-slate-600">{scenario.description}</p>
             </article>
+          ))}
+        </div>
+      </section>
+    );
+  }
+
+  if (section.id === "which-calculator-should-you-use") {
+    return (
+      <section className="mx-auto max-w-3xl px-4 py-7">
+        <h2 className="text-2xl font-semibold tracking-tight">{section.heading}</h2>
+        <p className="mt-3 leading-7 text-slate-700">{section.body}</p>
+        <div className="mt-5 grid gap-4 sm:grid-cols-2">
+          {calculatorGuideLinks.map((link) => (
+            <TrackedInternalLink
+              key={link.href}
+              href={link.href}
+              className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm transition hover:border-blue-300"
+              analyticsContext={{ pageType: "calculator", primaryKeyword: apPsychSubject.keywords.primary }}
+            >
+              <span className="block text-lg font-semibold text-slate-900">{link.title}</span>
+              <span className="mt-3 block text-sm leading-6 text-slate-600">{link.description}</span>
+            </TrackedInternalLink>
           ))}
         </div>
       </section>
