@@ -57,6 +57,110 @@ export interface FAQItem {
   answer: string;
 }
 
+export interface LandingCard {
+  title: string;
+  description: string;
+}
+
+export interface LandingStat {
+  label: string;
+  value: string;
+  highlight?: boolean;
+}
+
+export interface LandingLink {
+  href: string;
+  title: string;
+}
+
+export interface LandingHeroConfig {
+  eyebrow: string;
+  subtitle: string;
+  metaItems: string[];
+  primaryCtaLabel: string;
+  primaryCtaHref: string;
+  secondaryCtaLabel: string;
+  secondaryCtaHref: string;
+  calculatorLabel: string;
+  calculatorHeading: string;
+}
+
+export interface LandingBuiltForConfig {
+  eyebrow: string;
+  title: string;
+  cards: LandingCard[];
+}
+
+export interface LandingProductPreviewConfig {
+  eyebrow: string;
+  title: string;
+  body: string;
+  highlights: LandingCard[];
+  previewLabel: string;
+  previewTitle: string;
+  previewBadge: string;
+  stats: LandingStat[];
+  compositeLabel: string;
+  compositeValue: string;
+  compositeBody: string;
+}
+
+export interface LandingProblemSolutionConfig {
+  items: LandingCard[];
+}
+
+export interface LandingHowItWorksStep {
+  step: string;
+  title: string;
+  description: string;
+}
+
+export interface LandingHowItWorksConfig {
+  eyebrow: string;
+  title: string;
+  steps: LandingHowItWorksStep[];
+}
+
+export interface LandingFeatureGridConfig {
+  eyebrow: string;
+  title: string;
+  features: string[];
+}
+
+export interface LandingUseCasesConfig {
+  eyebrow: string;
+  title: string;
+  cases: LandingCard[];
+}
+
+export interface LandingGuidesConfig {
+  eyebrow: string;
+  title: string;
+  links: LandingLink[];
+}
+
+export interface LandingFinalCtaConfig {
+  eyebrow: string;
+  title: string;
+  body: string;
+  primaryCtaLabel: string;
+  primaryCtaHref: string;
+  secondaryCtaLabel: string;
+  secondaryCtaHref: string;
+}
+
+export interface LandingContent {
+  hero: LandingHeroConfig;
+  builtFor: LandingBuiltForConfig;
+  productPreview: LandingProductPreviewConfig;
+  problemSolution: LandingProblemSolutionConfig;
+  howItWorks: LandingHowItWorksConfig;
+  featureGrid: LandingFeatureGridConfig;
+  useCases: LandingUseCasesConfig;
+  guides: LandingGuidesConfig;
+  finalCta: LandingFinalCtaConfig;
+}
+
 export interface InternalLinkRule {
   href: string;
   anchor: string;
@@ -83,6 +187,7 @@ export interface PageConfig {
     sections: ContentSection[];
     faqs: FAQItem[];
     calculatorEmbed?: "full" | "mini" | "cta" | "none";
+    landing?: LandingContent;
   };
   internalLinks: {
     required: InternalLinkRule[];

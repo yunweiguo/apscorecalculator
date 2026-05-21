@@ -8,13 +8,189 @@
     "secondaryKeywords": [],
     "title": "AP Psych Score Calculator 2026 | MCQ + FRQ Score Estimate",
     "description": "Estimate your AP Psychology 1 to 5 score with this AP Psych Score Calculator. Enter MCQ and FRQ scores, test scenarios, and see if you are near a 3, 4, or 5.",
-    "h1": "AP Psych Score Calculator",
+    "h1": "Estimate Your AP Psych Score in Seconds",
     "canonicalPath": "/",
     "indexing": "index"
   },
   "content": {
     "directAnswer": "Use this AP Psych Score Calculator to estimate your AP Psychology exam score from 1 to 5 based on your multiple-choice and free-response performance. Enter your MCQ correct answers and FRQ scores, then compare score scenarios to see whether you are tracking closer to a 3, 4, or 5.",
     "calculatorEmbed": "full",
+    "landing": {
+      "hero": {
+        "eyebrow": "AP Psych score estimator",
+        "subtitle": "Use MCQ and FRQ scores to predict your AP Psychology score from 1 to 5, test different scenarios, and see how close you are to a 3, 4, or 5.",
+        "metaItems": ["75 MCQs", "2 FRQs", "instant estimate", "reverse planner"],
+        "primaryCtaLabel": "Calculate My Score",
+        "primaryCtaHref": "/#calculator",
+        "secondaryCtaLabel": "See Score Curve",
+        "secondaryCtaHref": "/ap-psych-curve",
+        "calculatorLabel": "Calculator",
+        "calculatorHeading": "AP Psych score calculator"
+      },
+      "builtFor": {
+        "eyebrow": "For practice tests, exam-day guesses, and target scores",
+        "title": "Know where you stand before scores come out",
+        "cards": [
+          {
+            "title": "After a practice test",
+            "description": "Turn your raw MCQ and FRQ performance into a quick score estimate so you can see where you stand right now."
+          },
+          {
+            "title": "Before exam day",
+            "description": "Check whether your current pace looks closer to a 3, 4, or 5 and decide what needs the most work."
+          },
+          {
+            "title": "After the exam",
+            "description": "Compare a safer FRQ guess with a stronger one to get a more realistic range instead of one lucky number."
+          }
+        ]
+      },
+      "productPreview": {
+        "eyebrow": "What the estimate looks like",
+        "title": "See your likely score without doing the math yourself",
+        "body": "Enter your MCQ and FRQ numbers, get an instant estimate, and test different outcomes if you are unsure how your free responses will be scored.",
+        "highlights": [
+          {
+            "title": "Quick score checks",
+            "description": "Change one number and watch the estimate move"
+          },
+          {
+            "title": "Built for AP Psych",
+            "description": "75 MCQs and two 7-point FRQs"
+          }
+        ],
+        "previewLabel": "Example result",
+        "previewTitle": "A likely 4 based on this mix",
+        "previewBadge": "Instant estimate",
+        "stats": [
+          {
+            "label": "MCQ Correct",
+            "value": "55 / 75"
+          },
+          {
+            "label": "FRQ 1",
+            "value": "5 / 7"
+          },
+          {
+            "label": "FRQ 2",
+            "value": "5 / 7"
+          },
+          {
+            "label": "Estimated Score",
+            "value": "4",
+            "highlight": true
+          }
+        ],
+        "compositeLabel": "Composite Estimate",
+        "compositeValue": "60%+",
+        "compositeBody": "This kind of result usually puts you in 4 range, with FRQ points still mattering if you are trying to push higher."
+      },
+      "problemSolution": {
+        "items": [
+          {
+            "title": "What students usually want to know",
+            "description": "If I got around this many MCQs right and my FRQs were decent, is that enough for a 3, 4, or 5?"
+          },
+          {
+            "title": "What this tool helps with",
+            "description": "It gives you a fast estimate, helps you compare better and worse FRQ outcomes, and shows how close you may be to the next score band."
+          }
+        ]
+      },
+      "howItWorks": {
+        "eyebrow": "Three quick inputs, one fast estimate",
+        "title": "Check your score in under a minute",
+        "steps": [
+          {
+            "step": "01",
+            "title": "Enter your MCQ correct answers",
+            "description": "Start with how many multiple-choice questions you think you got right out of 75."
+          },
+          {
+            "step": "02",
+            "title": "Add both FRQ scores",
+            "description": "Estimate each FRQ from 0 to 7, then try a safer guess and a stronger guess if you are unsure."
+          },
+          {
+            "step": "03",
+            "title": "Read your projected score band",
+            "description": "See your composite estimate and whether your result looks closer to a 3, 4, or 5."
+          }
+        ]
+      },
+      "featureGrid": {
+        "eyebrow": "Start with the estimate, then dig deeper",
+        "title": "Start with a score estimate, then answer the next question",
+        "features": [
+          "Estimate your AP Psych score from MCQ and FRQ inputs",
+          "See whether you look closer to a 3, 4, or 5",
+          "Test stronger and weaker FRQ outcomes in seconds",
+          "Use the reverse planner if you are aiming for a target score",
+          "Jump into curve, FRQ, MCQ, and passing-score guides from the same page"
+        ]
+      },
+      "useCases": {
+        "eyebrow": "Different situations, same calculator",
+        "title": "Use it before the exam, after the exam, or when you are chasing a 5",
+        "cases": [
+          {
+            "title": "After a practice test",
+            "description": "See whether your current results are already in passing range or still need more cushion."
+          },
+          {
+            "title": "When scores feel borderline",
+            "description": "Check whether a few extra MCQs or slightly stronger FRQs could change your likely score band."
+          },
+          {
+            "title": "When aiming for a 5",
+            "description": "Use the reverse planner to see how strong your MCQ score likely needs to be if FRQs are only average."
+          }
+        ]
+      },
+      "guides": {
+        "eyebrow": "More AP Psych score help",
+        "title": "Need a more specific answer? Start here",
+        "links": [
+          {
+            "href": "/ap-psych-frq-score-calculator",
+            "title": "AP Psych FRQ Score Calculator"
+          },
+          {
+            "href": "/ap-psych-mcq-score-calculator",
+            "title": "AP Psych MCQ Score Calculator"
+          },
+          {
+            "href": "/what-score-do-you-need-to-get-a-5",
+            "title": "What Score Do You Need to Get a 5?"
+          },
+          {
+            "href": "/how-many-questions-can-you-miss",
+            "title": "How Many Questions Can You Miss?"
+          },
+          {
+            "href": "/ap-psych-curve",
+            "title": "AP Psych Curve"
+          },
+          {
+            "href": "/ap-psych-score-distribution",
+            "title": "AP Psych Score Distribution"
+          },
+          {
+            "href": "/did-i-pass-ap-psych",
+            "title": "Did I Pass AP Psych?"
+          }
+        ]
+      },
+      "finalCta": {
+        "eyebrow": "Try your numbers now",
+        "title": "Check your score now and see how close you may be to your target",
+        "body": "Start with a quick estimate, compare a few realistic FRQ outcomes, and use the guides below if you want a better read on the curve, missed questions, or what it takes to get a 5.",
+        "primaryCtaLabel": "Calculate My Score",
+        "primaryCtaHref": "/#calculator",
+        "secondaryCtaLabel": "See Score Curve",
+        "secondaryCtaHref": "/ap-psych-curve"
+      }
+    },
     "sections": [
       {
         "id": "how-to-use",
